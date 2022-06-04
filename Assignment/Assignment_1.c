@@ -1,15 +1,24 @@
 #include <stdio.h>
 main()
 {
-   int i,n,sum=0;
-   printf("Input Value of terms : ");
-   scanf("%d",&n);
-   printf("\nThe first %d natural numbers are:\n",n);
-   for(i=1;i<=n;i++)
+   int x,y,sum=0;
+   printf("Input the Value of terms = ");
+   
+   scanf("%d",&y);
+   
+   printf("\nThe first %d natural numbers are=\n",y);
+   
+   for(x=1;x<=y;x++)
    {
-     printf("%d ",i);
-     sum+=i;
+       
+     printf("%d ",x);
+     
+     sum += x;
+     
    }
-   printf("\nThe Sum of natural numbers upto %d terms : %d \n",n,sum);
+   
+   printf("\nThe Sum of natural numbers of n(%d) terms = %d \n",y,sum);
+   
+   return 0;
 
 }
