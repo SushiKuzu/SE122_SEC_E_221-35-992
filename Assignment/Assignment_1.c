@@ -1,5 +1,5 @@
 #include <stdio.h>
-void main()
+main()
 {
    int i,n,sum=0;
    printf("Input Value of terms : ");
